@@ -6,10 +6,10 @@
 This project is a RESTful API that demonstrates user authentication and product management using **Node.js, Express, and JWT authentication**. The API is designed using a **microservices architecture**, where authentication and product management are handled as separate services.  
 
 ## **Features**  
-✅ User Registration and Login using **JWT (JSON Web Token)**  
-✅ Secure **protected routes** requiring authentication  
-✅ Microservices architecture with **separate authentication & product services**  
-✅ API endpoints tested using **Postman**  
+- User Registration and Login using **JWT (JSON Web Token)**  
+- Secure **protected routes** requiring authentication  
+- Microservices architecture with **separate authentication & product services**  
+- API endpoints tested using **Postman**  
 
 ---
 
@@ -35,17 +35,17 @@ week3-api-lab/
 
 ## **Installation & Setup**  
 
-### **1️⃣ Prerequisites**  
+### **1️. Prerequisites**  
 - Install **Node.js** (LTS version)  
 - Install **Postman** (for API testing)  
 
-### **2️⃣ Clone the Repository**  
+### **2️. Clone the Repository**  
 ```sh
 git clone https://github.com/your-repo/week3-api-lab.git
 cd week3-api-lab
 ```
 
-### **3️⃣ Install Dependencies**  
+### **3️. Install Dependencies**  
 ```sh
 npm install express jsonwebtoken bcryptjs dotenv
 ```
@@ -54,13 +54,13 @@ npm install express jsonwebtoken bcryptjs dotenv
 
 ## **Running the Microservices**  
 
-### **1️⃣ Start the Authentication Service (`auth-service.js`)**  
+### **1️. Start the Authentication Service (`auth-service.js`)**  
 ```sh
 node auth-service.js
 ```
 ✅ Server should run on **PORT 4000**.
 
-### **2️⃣ Start the Product Service (`product-service.js`)**  
+### **2️. Start the Product Service (`product-service.js`)**  
 ```sh
 node product-service.js
 ```
@@ -70,7 +70,7 @@ node product-service.js
 
 ## **API Endpoints**  
 
-### **1️⃣ User Authentication Service (`auth-service.js`)**  
+### **1️. User Authentication Service (`auth-service.js`)**  
 | Method | Endpoint         | Description                 |
 |--------|----------------|-----------------------------|
 | POST   | `/api/register` | Register a new user        |
@@ -112,7 +112,7 @@ node product-service.js
 
 ---
 
-### **2️⃣ Product Management Service (`product-service.js`)**  
+### **2️. Product Management Service (`product-service.js`)**  
 | Method | Endpoint          | Description           |
 |--------|-----------------|-----------------------|
 | GET    | `/api/products` | Fetch all products   |
@@ -131,9 +131,9 @@ node product-service.js
 
 ## **Testing with Postman**  
 
-### **1️⃣ User Authentication**  
+### **1️. User Authentication**  
 ✅ **Register** → `http://localhost:4000/api/register`  
 ✅ **Login** → `http://localhost:4000/api/login` (Copy JWT Token)  
 
-### **2️⃣ Fetch Products**  
+### **2️. Fetch Products**  
 ✅ **Get Products** → `http://localhost:5000/api/products`  
