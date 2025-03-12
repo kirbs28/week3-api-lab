@@ -137,27 +137,3 @@ node product-service.js
 
 ### **2️⃣ Fetch Products**  
 ✅ **Get Products** → `http://localhost:5000/api/products`  
-
----
-
-## **Notes & Future Improvements**  
-✅ Store users in **MongoDB** instead of in-memory storage.  
-✅ Use **Docker** for containerized deployment.  
-✅ Implement **frontend** for better user interaction.  
-
----
-
-## **Author**  
-👤 **Your Name**  
-📧 Email: your.email@example.com  
-🔗 GitHub: [Your GitHub Profile](https://github.com/yourusername)  
-
----
-
-### **📌 How to Save This File**
-1. **Create a new file** in your `week3-api-lab` folder.  
-2. Name it **`README.md`**.  
-3. Copy and paste the content above into the file.  
-4. Save the file.  
-
-Let me know if you need any modifications! 🚀
